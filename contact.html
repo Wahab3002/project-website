@@ -173,19 +173,22 @@
 
     <h5 class="contact_us">Contact Us</h5>
 
-    <form class="form_class" action="">
+    <form class="form_class" netfily
+    name="contact" action="">
         <p>Have a question? leave your information
             below and we will get back to you
             as soon as possible.
         </p>
-        <input type="text" required
+        <input type="text" required name="first_name"
          placeholder="First Name" ><br>
-        <input type="text" placeholder="Last Name(Optional)"><br>
-        <input type="text" placeholder="Email"
+        <input type="text" name="last_name"
+        placeholder="Last Name(Optional)"><br>
+        <input type="text" name="email"
+        placeholder="Email"
          required ="Email"><br>
-        <textarea 
+        <textarea name="text_area"
         placeholder="Message"></textarea><br>
-        <button>Send Message</button>
+        <button name="submit">Send Message</button>
     </form>
 
     <hr>
