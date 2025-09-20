@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css" integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/cb310104f3.js" crossorigin="anonymous"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ 
+
+        *{
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .logo{
+            display: inline;
+            background-color: antiquewhite;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .logo_list{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+
+        }
+
+
+
+        .upper_list{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .upper_list a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .upper_list .home {
+            background-color: antiquewhite;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .message{
+            font-size: 1.5rem;
+            text-align: center;
+            width: 80%;
+            margin: 50px auto;
+            
+        }
+
+        mark{
+            background-color: antiquewhite;
+        }
+
+        .image_container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+            padding: 10px;
+
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+        }
+
+        footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .p_footer{
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .logo_list{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .logo{
+                text-align: center;
+            }
+
+            .upper_list{
+                justify-content: center;
+            }
+
+            footer{
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            
+        }
+
+
+
+
+
+    </style>  
+</head>
+<body>
+
+    <!--Logo and about, which represent logo-->
+
+    <div class="logo_list">
+    <h2 id="home" class="logo">WAHAB OGUNBAJO</h2>
+    <ul class="upper_list">
+        <li><a class="home" href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+
+    <!--Page message-->
+    <p class="message">
+        <mark>Passionate</mark> Creative crafting 
+        distinct project, driven by
+        <mark>innovation</mark>
+    </p>
+
+
+
+    <!--For image container-->
+    <div class="image_container">
+        <a href="./images/photo_1.jpg" data-lightbox="photo_1"
+        data-title="Graduation photo">
+        <img src="./images/photo_1.jpg" alt="photo_1"></a>
+
+        <a href="./images/photo_2.jpg" data-lightbox="photo_2"
+        data-title="photo">
+        <img src="./images/photo_2.jpg" alt="photo_2"></a>
+
+        <a href="./images/photo_3.jpg" data-lightbox="photo_3"
+        data-title="photo">
+        <img src="./images/photo_3.jpg" alt="photo_3"></a>
+
+        <a href="./images/photo_4.jpg" data-lightbox="photo_4"
+        data-title="photo">
+        <img src="./images/photo_4.jpg" alt="photo_4"></a>
+
+        <a href="./images/photo_5.jpg" data-lightbox="photo_4"
+        data-title="photo">
+        <img src="./images/photo_5.jpg" alt="photo_5"></a>
+
+        <a href="./images/photo_6.jpg" data-lightbox="photo_6"
+        data-title="photo">
+        <img src="./images/photo_6.jpg" alt="photo_6"></a>
+
+    </div>
+
+    <hr>
+
+    <footer>
+    <h2>WAHAB OGUNBAJO</h2>
+
+
+    <p class="p_footer"><bold>Contact Us</bold><br>
+        (306)-880-2643<br>
+        wahabogunbajo2022@gmail.com<br>
+        Saskatoon, Saskatchewan, Ca.
+
+    </p>
+
+    <p>
+        follow us<br>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+
+    </p>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+</html>

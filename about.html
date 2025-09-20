@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cb310104f3.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ 
+
+        *{
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .logo{
+            display: inline;
+            background-color: antiquewhite;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .logo_list{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+
+        }
+
+
+
+
+        .upper_list{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .upper_list a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .upper_list .about {
+            background-color: antiquewhite;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .message{
+            font-size: 1.5rem;
+            text-align: center;
+            width: 80%;
+            margin: 200px auto;
+            
+        }
+
+        mark{
+            background-color: antiquewhite;
+        }
+
+        .service_container{
+            color: white;
+            background-color:gray;
+            padding: 20px;
+            margin-top: 200px;
+        }
+
+        .service_container h4{
+            text-align: center;
+
+        }
+
+        .service_container h6{
+            font-weight: 600;
+        }
+
+        .service_flex{
+            display: flex;
+            margin-top: 50px;
+            gap: 50px;
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+
+        .about_owner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+
+            h5{
+                font-weight: 500;
+            }
+            h6{
+                font-weight: 400;
+            }
+            p{
+                text-align: center;
+
+            }
+
+        }
+
+
+        footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .p_footer{
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .logo_list{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .logo{
+                text-align: center;
+            }
+
+            .upper_list{
+                justify-content: center;
+            }
+
+            footer{
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .service_flex{
+                flex-direction: column;
+            }
+
+        }
+
+
+        
+
+        </style>
+</head>
+<body>
+
+        <!--Logo and about, which represent logo-->
+
+    <div class="logo_list">
+    <h2 id="home" class="logo">WAHAB OGUNBAJO</h2>
+    <ul class="upper_list">
+        <li><a class="home" href="index.html">Home</a></li>
+        <li><a class="about" href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+    <p class="message"><mark>Inspired</mark> minds, shaping exceptional
+    projects fueled by <mark>ingenity</mark></p>
+
+    <div class="service_container">
+    <h4 class="Service">Our Services</h4>
+
+    <div class="service_flex">
+    
+    <div class="service_1">
+    <h6>Web Design</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt earum et, doloribus eveniet voluptatum autem dicta exercitationem cumque est recusandae dolorem odio quae hic eum ipsum ratione nam dignissimos. Nemo!</p>
+    </div>
+
+    <div class="service_2">
+    <h6>Graphic Design</h6>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit fugit dolorem mollitia, commodi tempore delectus necessitatibus. Eveniet consequatur soluta earum quidem quaerat tempore quod numquam.</p>
+    </div>
+
+    <div class="service_3">
+    <h6>Bash Script / Command Line</h6>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa labore, vitae aliquid nemo nam vero nihil dolore dolorem officia provident.</p>
+    </div>
+
+    </div>
+    </div>
+
+    <div class="about_owner">
+    <h5>Owner</h5>
+    <img src="./images/photo_1.jpg" alt="my_pic1"><br>
+    <img src="./images/photo_2.jpg" alt="my_pic"><br>
+    <h6>Wahab Ogunbajo</h6>
+    <p>Graduated at the University of Saskatchewan
+        with Computer Science.
+    </p>
+    </div>
+
+    <hr>
+
+    <footer>
+    <h2>WAHAB OGUNBAJO</h2>
+
+
+    <p class="p_footer"><bold>Contact Us</bold><br>
+        (306)-880-2643<br>
+        wahabogunbajo2022@gmail.com<br>
+        Saskatoon, Saskatchewan, Ca.
+
+    </p>
+
+    <p>
+        follow us<br>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+
+    </p>
+
+    </footer>
+
+
+
+
+    
+</body>
+</html>

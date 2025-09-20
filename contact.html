@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cb310104f3.js" crossorigin="anonymous"></script>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ 
+
+        *{
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .logo{
+            display: inline;
+            background-color: antiquewhite;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+
+        .logo_list{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+
+        }
+
+
+
+
+        .upper_list{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .upper_list a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .upper_list .contact {
+            background-color: antiquewhite;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .message{
+            font-size: 1.5rem;
+            text-align: center;
+            margin:10 auto;
+            background-color: darkgray;
+            color: white;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            
+        }
+
+        mark{
+            background-color: antiquewhite;
+        }
+
+
+        .contact_us{
+            font-weight: 700;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .form_class{
+            width: 400px;
+            text-align: center;
+            margin: 40px auto;
+            border: 0;
+
+        }
+
+        .form_class input, button{
+            width: 100%;
+            height: 40px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+        }
+
+        .form_class textarea{
+            width: 100%;
+            height: 80px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            
+        }
+
+          footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .p_footer{
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .logo_list{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .logo{
+                text-align: center;
+            }
+
+            .upper_list{
+                justify-content: center;
+            }
+
+            footer{
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .service_flex{
+                flex-direction: column;
+            }
+
+
+
+
+
+
+        </style>
+</head>
+<body>
+    
+        <!--Logo and about, which represent logo-->
+
+    <div class="logo_list">
+    <h2 id="home" class="logo">WAHAB OGUNBAJO</h2>
+    <ul class="upper_list">
+        <li><a class="home" href="index.html">Home</a></li>
+        <li><a class="about" href="about.html">About</a></li>
+        <li><a class="contact" href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+    <p class="message">
+        <mark>Enthusiastic</mark> thinker,
+        creating unique endeavours powered by
+        <mark>creativity</mark>
+    </p>
+
+    <h5 class="contact_us">Contact Us</h5>
+
+    <form class="form_class" action="">
+        <p>Have a question? leave your information
+            below and we will get back to you
+            as soon as possible.
+        </p>
+        <input type="text" required
+         placeholder="First Name" ><br>
+        <input type="text" placeholder="Last Name(Optional)"><br>
+        <input type="text" placeholder="Email"
+         required ="Email"><br>
+        <textarea 
+        placeholder="Message"></textarea><br>
+        <button>Send Message</button>
+    </form>
+
+    <hr>
+
+    <footer>
+    <h2>WAHAB OGUNBAJO</h2>
+
+
+    <p class="p_footer"><bold>Contact Us</bold><br>
+        (306)-880-2643<br>
+        wahabogunbajo2022@gmail.com<br>
+        Saskatoon, Saskatchewan, Ca.
+
+    </p>
+
+    <p>
+        follow us<br>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+
+    </p>
+
+    </footer>
+
+</body>
+</html>
